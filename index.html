@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornada</title>
+    <link rel="stylesheet" href="./global.css">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Prata&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="encabezado_container">
+            <a href="/" class="encabezado_logo" title="Página principal de Jornada">
+                <img class="encabezado_logo_icono" alt="Logo de Jornada, empresa de viajes y turismo" src="./img/logoprovisriablanca-1@2x.png" />
+            </a>
+            <nav class="encabezado_container_navegacion" aria-label="Navegación principal">
+                <ul class="encabezado_container_navegacion_lista">
+                    <li class="encabezado_container_navegacion_lista_elemento">
+                        <a href="/" aria-label="Enlace al blog de viajes">Blog</a>
+                    </li>
+                    <li class="encabezado_container_navegacion_lista_elemento">
+                        <a href="/" aria-label="Enlace a paquetes de viaje">Paquetes de viaje</a>
+                    </li>
+                    <li class="encabezado_container_navegacion_lista_elemento">
+                        <a href="/" aria-label="Enlace de contacto para consultas">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <header class="banner">
+        <div class="banner__wrapper">
+            <figure class="banner_wrapper_imagen">
+                <img class="banner_wrapper_imagen_img" alt="Hombre en una canoa" src="./img/maldivas@2x.png" />
+                <figcaption class="banner_wrapper_imgen_descripcion">Somos una agencia apasionada por crear viajes inolvidables. Desde el destino hasta la selección de actividades, nos encargamos de todos los detalles para que disfrutes al máximo cada momento de tu jornada.</figcaption>
+            </figure>
+        </div>
+    </header>
+
+    <main class="container">
+        <!-- Sección de ofertas -->
+        <section class="container_ofertas">
+            <header class="container_ofertas__titulo">
+                <h2 class="container_ofertas__titulo_texto">Ofertas de la semana</h2>
+                <div class="container_ofertas__titulo_subrayado"></div>
+            </header>
+            <ul class="container_ofertas_lista">
+                <!-- Primer oferta -->
+                <li class="container_ofertas_lista_item">
+                    <article class="container_ofertas_lista_item_card" aria-labelledby="oferta-japon">
+                        <header class="container_ofertas_lista_item_card_header">
+                            <p class="container_ofertas_lista_item_card_header_tipo">HOTEL + AÉREO</p>
+                            <h3 id="oferta-japon" class="container_ofertas_lista_item_card_header_nombre">Japón</h3>
+                        </header>
+                        <p class="container_ofertas_lista_item_card_precio">$ 4000</p>
+                        <a href="#" class="container_ofertas_lista_item_card_boton" aria-label="Ver detalles de la oferta Japón">Ver detalles</a>
+                    </article>
+                </li>
+                <!-- Segunda oferta -->
+                <li class="container_ofertas_lista_item">
+                    <article class="container_ofertas_lista_item_card" aria-labelledby="oferta-san-andreas">
+                        <header class="container_ofertas_lista_item_card_header">
+                            <p class="container_ofertas_lista_item_card_header_tipo">HOTEL + AÉREO</p>
+                            <h3 id="oferta-san-andreas" class="container_ofertas_lista_item_card_header_nombre">San Andreas</h3>
+                        </header>
+                        <p class="container_ofertas_lista_item_card_precio">$ 3000</p>
+                        <a href="#" class="container_ofertas_lista_item_card_boton" aria-label="Ver detalles de la oferta San Andreas">Ver detalles</a>
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Sección de búsqueda por categoría -->
+        <section class="container_busca">
+            <header class="container_busca_titulo">
+                <h2>Busca por Categoría</h2>
+                <div class="container_busca_titulo_subrayado"></div>
+            </header>
+            <div class="container_busca_categorias">
+                <!-- Categoría 1 -->
+                <div class="container_busca_categoria_block">
+                    <div class="container_busca_categoria_block_icono">
+                        <span class="container_busca_categoria_block_icono_outlined" aria-hidden="true">hiking</span>
+                    </div>
+                    <b class="container_busca_categoria_block_nombre">Paquetes Nacionales</b>
+                </div>
+                <!-- Categoría 2 -->
+                <div class="container_busca_categoria_block">
+                    <div class="container_busca_categoria_block_icono">
+                        <span class="container_busca_categoria_block_icono_outlined" aria-hidden="true">flight</span>
+                    </div>
+                    <b class="container_busca_categoria_block_nombre">Paquetes Internacionales</b>
+                </div>
+                <!-- Categoría 3 -->
+                <div class="container_busca_categoria_block">
+                    <div class="container_busca_categoria_block_icono">
+                        <span class="container_busca_categoria_block_icono_outlined" aria-hidden="true">airport_shuttle</span>
+                    </div>
+                    <b class="container_busca_categoria_block_nombre">Transfer</b>
+                </div>
+                <!-- Categoría 4 -->
+                <div class="container_busca_categoria_block">
+                    <div class="container_busca_categoria_block_icono">
+                        <span class="container_busca_categoria_block_icono_outlined" aria-hidden="true">vpn_lock</span>
+                    </div>
+                    <b class="container_busca_categoria_block_nombre">Seguro de Viaje</b>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección de destinos -->
+        <section class="container_destinos">
+            <header class="container_destinos_destinos_titulo">
+                <h2>Destinos Populares</h2>
+                <div class="container_destinos_titulo_subrayado"></div>
+            </header>
+            <div class="container_destinos_destinos_lista">
+                <!-- Primer destino -->
+                <article class="container_destinos_destinos_lista_elemento" aria-labelledby="destino-tokyo">
+                    <img class="container_destinos_destinos_lista_elemento_image" alt="Imagen de Tokyo" src="./img/tokyo@2x.png" />
+                    <h3 id="destino-tokyo" class="container_destinos_destinos_lista_elemento_nombre">Tokyo</h3>
+                    <p class="container_destinos_destinos_lista_elemento_descripcion">
+                        Tóquio es una ciudad vibrante y cosmopolita, con sus templos históricos, museos de arte moderno y rascacielos icónicos. No pierdas la oportunidad de sumergirte en su fascinante atmósfera.
+                    </p>
+                    <div class="container_destinos_destinos_lista_elemento_container">
+                        <a href="#" class="container_destinos_destinos_lista_elemento_container_boton" aria-label="Ver detalles de Tokyo">Ver detalles</a>
+                    </div>
+                </article>
+                <!-- Segundo destino -->
+                <article class="container_destinos_destinos_lista_elemento" aria-labelledby="destino-osaka">
+                    <img class="container_destinos_destinos_lista_elemento_image" alt="Imagen de Osaka" src="./img/osaka@2x.png" />
+                    <h3 id="destino-osaka" class="container_destinos_destinos_lista_elemento_nombre">Osaka</h3>
+                    <p class="container_destinos_destinos_lista_elemento_descripcion">
+                        Osaka es una ciudad animada y moderna en Japón. La ciudad es famosa por su deliciosa gastronomía y por ser un excelente punto de partida para explorar otras ciudades japonesas cercanas.
+                    </p>
+                    <div class="container_destinos_destinos_lista_elemento_container">
+                        <a href="#" class="container_destinos_destinos_lista_elemento_container_boton" aria-label="Ver detalles de Osaka">Ver detalles</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Sección de condiciones de pago -->
+        <section class="container_pago">
+            <header class="container_pago_titulo">
+                <h2>Condiciones de Pago</h2>
+                <div class="container_pago_titulo_subrayado"></div>
+            </header>
+            <section class="container_pago_condiciones">
+                <p class="container_pago_condiciones_destaque">"¡Pago a plazos de hasta 12 cuotas!"</p>
+                <p class="container_pago_condiciones_detalles">
+                    ¡Viaja pagando en hasta 12 cuotas con tarjeta, o al contado en crédito con un descuento del 5%!
+                </p>
+                <div class="container_pago_condiciones_imagenes">
+                    <img class="container_pago_condiciones_imagenes_img" alt="Maleta" src="./img/montaje-japo-1@2x.png" />
+                    <img class="container_pago_condiciones_imagenes_img" alt="Visas" src="./img/montaje-japo-2@2x.png" />
+                    <img class="container_pago_condiciones_imagenes_img" alt="Paisaje" src="./img/montaje-japo-3@2x.png" />
+                </div>
+            </section>
+        </section>
+
+        <!-- Sección de testimonios -->
+        <section class="container_testimonios">
+            <header class="container_testimonios_titulo">
+                <h2>Testimonios</h2>
+                <div class="container_testimonios_titulo_subrayado"></div>
+            </header>
+            <div class="container_testimonios_wrapper">
+                <article class="container_testimonios_wrapper_elemento" aria-labelledby="testimonio-ana">
+                    <p id="testimonio-ana" class="container_testimonios_wrapper_elemento_texto">
+                        Jornada ha sido una de las mejores agencias de viajes que he experimentado. 
+                        El servicio al cliente fue excepcional, y todo el equipo fue muy atento y servicial.
+                    </p>
+                    <footer class="container_testimonios_wrapper_autor">
+                        <img class="container_testimonios_wrapper_autor_foto" 
+                             src="./img/ellipse-1@2x.png" 
+                             alt="Foto de Ana López" />
+                        <div class="container_testimonios_wrapper_autor_info">
+                            <strong class="container_testimonios_wrapper_autor_info_nombre">Ana López</strong>
+                            <div class="container_testimonios_wrapper_autor_info_evaluacion" role="img" aria-label="Calificación de 5 estrellas">
+                                <img class="container_testimonios_wrapper_autor_info_evaluacion_estrella" src="./img/star-1.svg" alt="Estrella de evaluación" />
+                                <img class="container_testimonios_wrapper_autor_info_evaluacion_estrella" src="./img/star-1.svg" alt="Estrella de evaluación" />
+                                <img class="container_testimonios_wrapper_autor_info_evaluacion_estrella" src="./img/star-1.svg" alt="Estrella de evaluación" />
+                                <img class="container_testimonios_wrapper_autor_info_evaluacion_estrella" src="./img/star-1.svg" alt="Estrella de evaluación" />
+                                <img class="container_testimonios_wrapper_autor_info_evaluacion_estrella" src="./img/star-1.svg" alt="Estrella de evaluación" />
+                            </div>
+                        </div>
+                    </footer>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <img class="preFooter" alt="Descripción de la imagen" src="./img/pre-footer-image.png" />
+
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Logo y horario de atención -->
+            <div class="footer__container_logo">
+                <img class="footer__container_logo_icon" alt="Logotipo de la empresa" src="./img/logobranco-1@2x.png" />
+                <div class="footer__container_logo_info">
+                    <p class="footer__container_logo_info_text">Horario de atención: 08h - 20h (Lunes a Sábado)</p>
+                    <p class="footer__container_logo_info_text">Desarrollado por Alura Latam. Proyecto ficticio sin fines comerciales.</p>
+                </div>
+            </div>
+
+            <!-- Redes sociales -->
+            <div class="footer_container_redesSociales">
+                <p class="footer_container_redesSociales_text">Accede a nuestras redes sociales:</p>
+                <div class="footer_container_redesSociales_icons">
+                    <a href="https://wa.me" target="_blank" aria-label="WhatsApp">
+                        <img class="footer_container_redesSociales_icons_img" alt="Ícono de WhatsApp" src="./img/whatsapp-1.svg" />
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                        <img class="footer_container_redesSociales_icons_img" alt="Ícono de Instagram" src="./img/instragam-1.svg" />
+                    </a>
+                    <a href="https://twitter.com" target="_blank" aria-label="Twitter">
+                        <img class="footer_container_redesSociales_icons_img" alt="Ícono de Twitter" src="./img/twiter-1.svg" />
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+
+</html>
